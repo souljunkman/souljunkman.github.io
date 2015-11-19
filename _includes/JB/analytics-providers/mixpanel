@@ -8,5 +8,5 @@
     [f].concat(Array.prototype.slice.call(arguments,0)))}};d=["init","track","track_links",
     "track_forms","register","register_once","identify","name_tag","set_config"];for(c=0;c<
     d.length;c++){mpq[d[c]]=e(d[c])}})();
-    mpq.track("PageLoaded");
+    mpq.track(document.title);
 </script>
